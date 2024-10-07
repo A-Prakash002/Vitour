@@ -1,0 +1,715 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-family: "Yesteryear", system-ui;
+
+}
+
+:root{
+    --Primary-color:#4DA528;
+    --Primary-light-color:#B8E3A6;
+    --Secndary-color:#1A2F3A;
+    --Rare-color:#b6c2d4;
+    --White-color: #ffffff;
+    --Black-color:#000000;
+    --Grey-color:#4f545a;
+    --Grey-light-color:#B6B6B6;
+    --Header-bg-color:#E7E7E7;
+    --Rating-color:#FBAD17;
+    --Orange-color:#fd7e14;    
+}
+
+.container{
+    width: 1200px;
+    margin:auto;
+    height: auto;
+}
+
+.container-fluid{
+    width: 100%;
+    height: auto;
+  
+}
+
+.row{
+    width: auto;
+    height: auto;
+}
+
+.row:after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.topinfo{
+    background-color: var(--Header-bg-color);
+}
+
+.address{
+    width:70%;
+    height:auto;
+    float: left;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.address ul{
+    list-style: none;
+    margin:0px;
+    padding:0px;
+}
+
+.address ul li{
+    display: inline-block;
+    line-height: 50px;
+    margin:0px 10px;
+    font-size: 14px;
+    color:var(--Grey-color)
+    
+}
+
+.address ul li span{
+    font-size: 18px;
+    padding:0px 5px 0px 0px;
+    line-height: 32px;
+    color:var(--Primary-color);
+    vertical-align: middle;
+}
+
+
+.book{
+    width:30%;
+    height:auto;
+    float:right;
+    padding:10px 0px;
+}
+
+.book button:hover{
+    color: var(--White-color);
+    background-color: var(--Primary-color);
+    
+}   
+
+.book button{
+    width:120px;
+    height:30px;
+    border-radius: 5px;
+    border:0px;
+    background-color: var(--Primary-light-color);
+    color:var(--Grey-color);
+    font-size: 16px;
+    float: right;
+       
+}
+
+.book button span{
+    font-size: 18px;
+    padding:0px 5px 0px 0px;
+    vertical-align: middle;
+    color:var(--Primary-color);
+}
+
+.header{
+    box-sizing: border-box;
+    width: 100%;
+    height: 90px;
+    padding: 10px 0px;
+}
+
+.logo{
+
+    width: 30%;
+    height: 70px;
+    float: left;
+
+
+}
+
+.logo img{
+    padding:16px 0px;
+}
+
+nav{
+    width: 70%;
+    height: 70px;
+    float: right;
+
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav ul li{
+    display: inline-block;
+    vertical-align: top;
+}
+
+nav ul li a{
+    height: 70px;
+    line-height: 70px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 17px;
+    color: var(--Secndary-color);
+    text-decoration: none;
+    display: block;
+    padding: 0px 20px;
+   
+
+}
+
+.container-fluid-img{
+     width: auto;
+     height: 785px;
+     background-image: url(../images/Banner.png)
+}
+
+/* booked events */
+
+.avatar-container {
+    display: flex;
+    position: relative;
+    height: 40px;
+    padding-top: 40px;
+    width: 360px;
+    float: left;
+}
+
+.avatar1{
+    height: 40px;
+    width: 40px;
+    margin-left: 0px;
+    z-index: 10;
+}
+.avatar2{
+    height: 40px;
+    width: 40px;
+    margin-left: -20px;
+    z-index: 11;
+}
+.avatar3{
+    height: 40px;
+    width: 40px;
+    margin-left: -20px;
+    z-index: 12;
+
+}
+.avatar4{
+    height: 40px;
+    width: 40px;
+    margin-left: -20px;
+    z-index: 13;
+}
+.avatar5{
+    height: 40px;
+    width: 40px;
+    margin-left: -20px;
+    z-index: 14;
+}
+.avatar6{
+    height: 40px;
+    width: 40px;
+    margin-left: -20px;
+    z-index: 15;
+
+}
+.avatar7{
+    height: 40px;
+    width: 40px;
+    margin-left: -20px;
+    z-index: 16;
+}
+
+.infocontainer{
+    width: 480px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid var(--Grey-color);
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 17px;
+    text-align: center;
+    font-weight: 500
+}
+
+.info{
+    width: 480px;
+    line-height: 40px;
+    border-bottom: 2px var(--Grey-color);
+    display: inline-block;
+    padding-top: 40px;
+    border-bottom: 2px;
+    box-sizing: border-box;
+    margin: 0px;
+
+}
+
+.blank{
+    width: 360px;
+    height: 40px;
+    float: left;
+}
+
+/* Great Opportunity For Adventure & Travels */
+
+/* 1. Great Opportunity For Adventure & Travels (Left Side)*/
+
+.greatopportunity-container{
+    float: left;
+}
+
+.enjoy-travel{
+    width: 600px;
+    height: 606px;
+    padding-top: 80px;   
+    float: left;
+    margin: 0px;
+    
+}
+/* 2. Great Opportunity For Adventure & Travels (Right Side)*/
+.right-container{
+    width: 600px;
+    height: 606px;
+    padding-top: 80px;
+    float: left;
+}
+
+.enjoy-traveltext1{
+    font-family: "Yesteryear", system-ui;
+    font-size: 20px;
+    color: var(--Primary-color);
+    padding: 0px 0px 0px 40px;    
+    margin: 0px;
+}
+
+.enjoy-traveltext2{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 40px;
+    color: var(--Secndary-color);
+    padding: 0px 0px 0px 40px;    
+    margin: 0px;
+    font-weight: 1000;
+}
+
+.enjoy-traveltext2 span{
+    font-family: "Yesteryear", system-ui;
+    font-size: 40px;
+    color: var(--Rare-color);
+    font-weight: 100;
+
+}
+
+.enjoy-traveltext3{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 17px;
+    color: var(--Grey-color);
+    padding: 0px 0px 0px 40px;    
+    margin: 0px;
+    font-weight: 500;
+}
+
+/* 2.1 Great Opportunity For Adventure & Travels (Right Side) - Containers with icon */
+
+.greatopportunity-container2{
+    float: left;
+    padding-left: 40px;
+    height: auto;
+    padding-top: 40px;
+    width: auto;
+}
+
+.greatopportunity-container2-leftcontainer{
+    height: auto;
+    width: 270px;
+    color: #4DA528;
+    background-color: #ffffff;
+    padding: 0px;
+    margin: 0px;
+    float: left;    
+}
+
+.greatopportunity-container2-rightcontainer{
+    height: auto;
+    width: 270px;
+    color: #4DA528;
+    background-color: #ffffff;
+    padding-left: 20px;
+    float: left;
+    
+}
+
+.greatopportunity-container2-text1{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 18px;
+    color: var(--Secndary-color);
+    padding: 0px;    
+    margin: 0px;
+    font-weight: 800;
+}
+
+.greatopportunity-container2-text2{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 16px;
+    color: var(--Grey-color);
+    padding: 0px;    
+    margin: 0px;
+    font-weight: 500;
+    padding-top: 6px;
+}
+
+/* Great Opportunity For Adventure & Travels (Right Side) - button & founder */
+
+/* 1. Great Opportunity For Adventure & Travels (Right Side) - button */
+
+.greatopportunity-container3{
+    float: left;
+    padding-left: 40px;
+    height: auto;
+    width: auto;
+    padding-top: 40px;
+    align-items: left;
+        
+}
+
+.greatopportunity-container3 button{
+    width: 200px;
+    height: 65px;
+    background-color: var(--Primary-color);
+    color: var(--White-color);
+    text-align: center;
+    vertical-align: middle;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 6px;
+    border: 0px;
+    float: left;
+}
+
+/* 2. Great Opportunity For Adventure & Travels (Right Side) - founder */
+
+.greatopportunity-container4{
+    height: auto;
+    float: left;
+    padding-left: 30px;
+    }
+
+.greatopportunity-container4 img{
+    width: 65px;
+    height: 65px;    
+    border-radius: 50%;
+    float: left;
+
+}
+
+.greatopportunity-container5{
+    width: 144px;
+    height: 65px;
+    padding-left: 10px;
+    float: left;
+    margin: 0px;
+}
+
+.greatopportunity-container5 img{
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    float: left;
+}
+
+.greatopportunity-container5 p{
+    margin: 0px;
+    padding-top: -10px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--Primary-color);
+    float: left;
+}
+
+/* Great Opportunity For Adventure & Travels (Right Side) - location & info */
+
+.greatopportunity-container6{
+    padding-left: 40px;
+    padding-top: 20px;
+    height: auto;
+    width: auto;
+    float: left;
+    margin: 0px;
+}
+
+.greatopportunity-container6-svg{
+    float: left;
+}
+
+.greatopportunity-container6 p{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--Primary-color);
+    float: right;
+    
+}
+
+/* Amazing Featured Tour Package The World */
+
+.AmazingFeatured-container-fluid{
+    background-image: url(../images/Amazing\ Featured\ Tour\ Block\ bg.png);
+    width: 100%;
+    height: auto;
+    float: left;
+    padding: 100px 360px;
+    box-sizing: border-box;
+    margin-top: 100px;
+    position: relative;
+}
+
+.AmazingFeatured-container{
+    float: left;
+    height: auto;
+    width: 1220px;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.AmazingFeatured-container p{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 18px;
+    padding: 0px;    
+    margin: 0px;
+    font-weight: 800;
+    color: var(--Primary-color);
+    text-align: center;
+}
+
+.AmazingFeatured-container h2{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 40px;
+    color: var(--Secndary-color);
+    padding: 0px 0px 0px 0px;    
+    margin: 0px;
+    font-weight: 1000;
+    text-align: center;
+}
+
+.AmazingFeatured-container h2 span{
+    font-family: "Yesteryear", system-ui;
+    font-size: 40px;
+    color: var(--Rare-color);
+    font-weight: 100;
+}
+
+.AmazingFeatured-container ul{
+    padding: 0px;
+    margin-top: 40px;
+    height: auto;
+}
+
+.AmazingFeatured-container ul li{
+    list-style: none;
+    text-decoration: none;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 18px;
+    color: var(--Secndary-color); 
+    font-weight: 600;
+    text-align: center;
+    display: inline-block;
+    background-color: var(--White-color);
+    border-radius: 6px;
+    padding: 14px 34px;
+    margin: 7px;
+    box-shadow: 4px 4px 10px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Amazing Featured Tour Package The World - cards */
+
+.AmazingFeatured-cards-container{
+    width: 285px;
+    height: auto;
+    float: left;
+    padding-top: 30px;
+    margin-right: 20px;
+}
+
+.AmazingFeatured-card{
+    width: 285px;
+    height: 246px;
+    background-image: url(../images/Pesonalized\ Trips.png);
+    float: left;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+
+.AmazingFeatured-card button{
+    width: auto;
+    height: auto;
+    padding: 4px 8px;
+    background-color: var(--Primary-color);
+    color: var(--White-color);
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 6px;
+    float: left;
+    margin: 0px;
+    border-width: 0px;
+}
+
+.AmazingFeatured-card ul{
+    float: right;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.AmazingFeatured-card ul li{
+    width: auto;
+    height: auto;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    list-style: none;
+    padding: 4px 6px;
+    margin: 0px;
+    background-color: rgba(26, 47, 58, 0.7);
+    color: var(--White-color);
+    box-sizing: border-box;
+}
+
+.AmazingFeatured-card ul li svg{
+    padding-right: 6px;
+}
+
+.AmazingFeatured-cards-container2{
+    float: left;
+    width: 285px;
+    height: auto;
+    background-color: var(--White-color);
+    box-sizing: border-box;
+    border-radius: 12px;
+    margin: 0px;
+    padding: 24px 12px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    position: relative;
+    top: -18px;
+    box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.25)
+}   
+
+.AmazingFeatured-cards-container2 svg{
+    float: left;
+    padding-right: 12px;
+    margin: 0px;
+
+}
+
+.AmazingFeatured-cards-container2 h3{
+    color: var(--Grey-color);
+    font-size: 15px;
+    font-weight: 600;
+    width: 100%;
+    margin: 0px;
+    padding-left: 12px;
+    text-align: left;
+}
+
+.AmazingFeatured-cards-container2 h1{
+    color: var(--Secndary-color);
+    font-size: 18px;
+    font-weight: 600;
+    width: 100%;
+    margin: 0px;
+    padding-top: 12px;
+    text-align: left;
+    float: left;
+}
+
+.AmazingFeatured-cards-container3{
+    padding-top: 12px;
+    width: 100%;
+    height: 22px;
+    float: left;
+}
+
+.AmazingFeatured-cards-container3 svg{
+    padding: 0px 2px;
+    margin: 0px;
+    width: auto;
+    height: auto;
+    float: left;
+}
+
+.AmazingFeatured-cards-container3 p{
+    color: var(--Grey-color);
+    font-size: 15px;
+    font-weight: 600;
+    width: auto;
+    margin: 0px;
+    padding-left: 6px;
+    text-align: left;
+    margin: 0px;
+    float: left;
+}
+
+.AmazingFeatured-cards-container2 hr{
+    height: 2px;
+    color: var(--Grey-color);
+    margin-top: 28px;
+    margin-bottom: 20px;
+    float: left;
+    width: 100%;
+    background-color: var(--Grey-color);
+    border: 0px;
+}
+
+.AmazingFeatured-cards-container2 ul{
+    float: left;
+    margin: 0px;
+    padding-top: 12px;
+}
+
+.AmazingFeatured-cards-container2 ul li{
+    list-style: none;
+    display: inline-block;
+    color: var(--Grey-color);
+    font-size: 18px;
+    font-weight: 600;
+    width: auto;
+    margin: 0px;
+    text-align: left;
+    padding: 0px;
+    box-shadow: none;
+    
+}
+
+.AmazingFeatured-cards-container4{
+    float: left;
+    border-top: 1px solid var(--Grey-color);
+    height: auto;
+    width: 100%;
+    margin-top: 28px;
+}
+
+.AmazingFeatured-cards-container4 p{
+    float: left;
+    padding-top: 20px;
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--Grey-color);
+}
+
+.AmazingFeatured-cards-container4 p span{
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--Primary-color);
+}
+
+.AmazingFeatured-cards-container4 svg{
+    float: right;
+    padding-top: 20px;
+    padding-right: 0px;
+}
